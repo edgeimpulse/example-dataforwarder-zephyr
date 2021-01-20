@@ -1,6 +1,6 @@
 # Data Forwarder example (Zephyr)
 
-An example firmware for the Nordic Semiconductors nRF52840 DK showing how to use the [Edge Impulse Data Forwarder](https://docs.edgeimpulse.com/docs/cli-data-forwarder) to capture data from an IMU sensor at 104Hz and send it to Edge Impulse. This application should be easily adaptable to other Zephyr-supported development boards or sensors.
+An example firmware for the Nordic Semiconductor nRF52840 DK showing how to use the [Edge Impulse Data Forwarder](https://docs.edgeimpulse.com/docs/cli-data-forwarder) to capture data from an IMU sensor at 104Hz and send it to Edge Impulse. This application should be easily adaptable to other Zephyr-supported development boards or sensors.
 
 ## How to build
 
