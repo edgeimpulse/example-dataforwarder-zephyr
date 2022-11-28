@@ -5,10 +5,8 @@ An example firmware for the Nordic Semiconductor nRF52840 DK showing how to use 
 ## How to build
 
 1. Install the [Edge Impulse CLI](https://docs.edgeimpulse.com/docs/cli-installation).
-1. Install and configure your Zephyr toolchain. This also works with the [nRF Connect SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF-Connect-SDK).
-
+1. Install and configure your Zephyr toolchain. This also works with the [nRF Connect SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF-Connect-SDK).  
 | Note: Currently supported NCS version is 1.9.1
-
 1. Clone this repository:
 
     ```
