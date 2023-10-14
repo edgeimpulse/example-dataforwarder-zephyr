@@ -1,6 +1,6 @@
-#include <zephyr.h>
-#include <sys/printk.h>
-#include <drivers/sensor.h>
+#include <zephyr/kernel.h>
+#include <zephyr/sys/printk.h>
+#include <zephyr/drivers/sensor.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,7 +12,7 @@ int main() {
     setvbuf(stdout, NULL, _IONBF, 0);
 
     // get driver for the accelerometer
-    const struct device *iis2dlpc = device_get_binding(DT_LABEL(DT_INST(0, st_iis2dlpc)));
+    const struct device *iis2dlpc = DEVICE_DT_GET_ONE(st_iis2dlpc);
     if (iis2dlpc == NULL) {
         printf("Could not get IIS2DLPC device\n");
         return 1;
